@@ -1,0 +1,97 @@
+/*stylesheet.css*/
+* {
+  background-color: #D4958C;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #D4958C;
+}
+
+/* top navigation bar-------------------------------*/
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A1716A;
+  text-align: right;
+}
+
+.top-nav li {
+  float: right;
+}
+
+
+.top-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+/*----------------------------------------------*/
+
+/* bottom navigation bar-------------------------------*/
+.bottom-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A1716A;
+}
+
+.bottom-nav li {
+  float: left;
+}
+
+.bottom-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*----------------------------------------------*/
+
+p {
+  text-align: justify;
+}
+
+table {
+  width: 75rem;
+  border: 1px;
+  color: solid black;
+}
+
+th {
+  background-color: #A1716A;
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: lightcoral;
+  
+}
+
+.project-table{
+  width 100%;
+  height: 50px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #A1716A;
+  font-size: 10px;
+}
