@@ -1,12 +1,9 @@
 /*stylesheet.css*/
 * {
-  background-color: #D4958C;
-  font-family: sans-serif;
+  background-color: #FFCAC0;
+  font-family: 'Lato', sans-serif;
 }
 
-body {
-  background-color: #D4958C;
-}
 
 /* top navigation bar-------------------------------*/
 .top-nav {
@@ -14,44 +11,28 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #A1716A;
-  text-align: right;
+  background-color: #FFCAC0;
+  
 }
 
 .top-nav li {
   float: right;
+  background-color: #FFCAC0;
 }
 
 
 .top-nav li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
-}
-/*----------------------------------------------*/
-
-/* bottom navigation bar-------------------------------*/
-.bottom-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #A1716A;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
 }
 
-.bottom-nav li {
-  float: left;
-}
-
-.bottom-nav li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a:hover {
+  background-color: #E8B3A3;
 }
 /*----------------------------------------------*/
 
@@ -92,6 +73,11 @@ td{
 }
 
 footer {
-  background-color: #A1716A;
+  background-color: #D4B7B4;
+  float: right;
+}
+
+footer p {
+  font-family: 'Gaegu', cursive;
   font-size: 10px;
 }
