@@ -36,6 +36,32 @@ li a:hover {
 }
 /*----------------------------------------------*/
 
+.ab-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ab-photo {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 28%;
+  right: 60%;
+}
+
+/*Sets about me paragraphs to middle*/
+.about-me {
+  position: absolute;
+  height: 1rem;
+  width: 25rem;
+  left: 50%;
+  bottom: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p {
   text-align: justify;
 }
@@ -75,6 +101,8 @@ td{
 footer {
   background-color: #D4B7B4;
   float: right;
+  position: relative;
+  bottom: 10%;
 }
 
 footer p {
